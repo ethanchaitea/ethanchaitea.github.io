@@ -2,6 +2,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .navigation ul {
@@ -47,3 +49,17 @@
     color: #202020;
     text-decoration: none;
 }
+
+.me_main {
+    font-family: Inter, sans-serif;
+    color: #202020;
+}
+
+.me_main h2 {
+    font-size: medium;
+}
+
+.me_main p {
+    font-size: small;
+}
+
