@@ -92,7 +92,7 @@ p {
 .contact_title {
     display: flex;
     flex-direction: column;
-    margin: 0px 16px;
+    margin: 16px 16px 0;
 }
 
 .contact_main {
