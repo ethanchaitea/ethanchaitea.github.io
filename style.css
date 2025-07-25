@@ -109,7 +109,7 @@ p {
 .contact_main ul {
     display: flex;
     gap: 8px;
-    margin: 0;
+    margin: 8px 0;
     padding: 0;
     list-style: none;
 }
