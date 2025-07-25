@@ -34,6 +34,17 @@ main {
     flex: 1;
 }
 
+h2 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+p {
+    font-size: 12px;
+    margin: 8px 0px;
+}
+
 #footer {
     background-color: #eee;
     margin: 0;
@@ -68,17 +79,6 @@ main {
     margin: 16px;
 }
 
-.me_title h2 {
-    font-size: 15px;
-    font-weight: 600;
-    margin: 0;
-}
-
-.me_title p {
-    font-size: 12px;
-    margin: 8px 0px;
-}
-
 /* catalog.html */
 
 .catalog_title {
@@ -87,40 +87,18 @@ main {
     margin: 16px;
 }
 
-.catalog_title h2 {
-    font-size: 15px;
-    font-weight: 600;
-    margin: 0;
-}
-
-.catalog_title p {
-    font-size: 12px;
-    margin: 8px 0px;
-}
-
 /* contact.html */
 
 .contact_title {
     display: flex;
     flex-direction: column;
-    margin: 16px;
-}
-
-.contact_title h2 {
-    font-size: 15px;
-    font-weight: 600;
-    margin: 0;
-}
-
-.contact_title p {
-    font-size: 12px;
-    margin: 8px 0px;
+    margin: 0px 16px;
 }
 
 .contact_main {
     display: flex;
     flex-direction: column;
-    margin: 16px;
+    margin: 0px 16px;
 }
 
 .contact_main p {
