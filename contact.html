@@ -28,13 +28,18 @@
                 <p>Let's get in touch!</p>
             </div>
             <div class="contact_main">
-                <p>The fastest way to reach me is through email: <a href="mailto:ethanc0301@gmail.com">ethanc0301@gmail.com</a></p>
-                <ul>
-                    <li><a href="mailto:ethanc0301@gmail.com"><i class="fas fa-envelope"></i></a></li>
-                    <li><a href="https://linkedin.com/in/ethan-chai" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/ethanchaitea" target="_blank"><i class="fab fa-github"></i></a></li>
-                    <li><a href="https://instagram.com/ethan.chai.tea/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                </ul>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="8" required></textarea>
+
+                    <button type="submit" style="font-family: Inter, sans-serif; font-size: 12px;">Send!</button>
+                </form>
             </div>
         </main>
         <footer id="footer">
