@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Inter, sans-serif;
-    margin: 0;
+    margin: 16px;
     min-height: 100vh;
 }
 
@@ -42,7 +42,6 @@ h2 {
 
 p {
     font-size: 12px;
-    margin: 8px 0px;
 }
 
 #footer {
@@ -81,7 +80,7 @@ p {
 .me_title {
     display: flex;
     flex-direction: column;
-    margin: 16px;
+    margin: 8px 0;
 }
 
 /* catalog.html */
@@ -89,7 +88,8 @@ p {
 .catalog_title {
     display: flex;
     flex-direction: column;
-    margin: 16px;
+    
+    margin: 8px 0;
 }
 
 /* contact.html */
@@ -97,24 +97,22 @@ p {
 .contact_title {
     display: flex;
     flex-direction: column;
-    margin: 16px 16px 0;
+    margin: 8px 0 0 0;
 }
 
 .contact_main {
     display: flex;
     flex-direction: column;
-    margin: 0px 16px;
 }
 
 .contact_main p {
     font-size: 12px;
-    margin: 8px 0px;
+    margin: 0;
 }
 
 .contact_main ul {
     display: flex;
-    gap: 8px;
-    margin: 8px 0;
+    gap: 16px;
     padding: 0;
     list-style: none;
 }
