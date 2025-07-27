@@ -24,7 +24,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Inter, sans-serif;
-    margin: 16px;
     min-height: 100vh;
 }
 
@@ -32,13 +31,13 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin: 4px 0px;
+    margin: 8px;
 }
 
 h2 {
     font-size: 15px;
     font-weight: 600;
-    margin: 0;
+    margin: 0px;
 }
 
 p {
@@ -47,8 +46,8 @@ p {
 
 #footer {
     background-color: #eee;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .footer_main {
@@ -63,13 +62,13 @@ p {
     display: flex;
     font-size: 15px;
     gap: 16px;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     list-style: none;
 }
 
 .footer_main p {
-    margin: 8px 0 0
+    margin: 8px 0px 0px;
 }
 
 .footer_main a {
@@ -109,7 +108,7 @@ p {
 .contact_main ul {
     display: flex;
     gap: 16px;
-    padding: 0;
+    padding: 0px;
     list-style: none;
 }
 
@@ -122,11 +121,11 @@ p {
     display: flex;
     flex-direction: column;
     font-size: 12px;
-    margin: 8px 0;
+    margin: 8px 0px;
 }
 
 .contact_main input, textarea {
-    margin: 8px 0;
+    margin: 8px 0px;
     padding: 6px;
     border: 1px solid;
     border-radius: 4px;
@@ -140,6 +139,6 @@ p {
 }
 
 .contact_main button {
-    margin: 4px 0;
+    margin: 4px 0px;
     width: 100px;
 }
