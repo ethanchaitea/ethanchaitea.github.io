@@ -116,3 +116,29 @@ p {
     text-decoration: none;
     color: black;
 }
+
+.contact_main form {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin: 8px 0;
+}
+
+.contact_main input, textarea {
+    margin: 8px 0;
+    padding: 6px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    width: 800px
+}
+
+.contact_main input {
+    width: 200px;
+}
+
+.contact_main button {
+    margin: 4px 0;
+    width: 100px;
+}
