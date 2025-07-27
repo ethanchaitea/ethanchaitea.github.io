@@ -37,7 +37,7 @@ main {
 h2 {
     font-size: 15px;
     font-weight: 600;
-    margin: 4px 0px;
+    margin: 0;
 }
 
 p {
@@ -80,7 +80,6 @@ p {
 .me_title {
     display: flex;
     flex-direction: column;
-    margin: 8px 0;
 }
 
 /* catalog.html */
@@ -88,8 +87,6 @@ p {
 .catalog_title {
     display: flex;
     flex-direction: column;
-    
-    margin: 8px 0;
 }
 
 /* contact.html */
@@ -97,7 +94,6 @@ p {
 .contact_title {
     display: flex;
     flex-direction: column;
-    margin: 8px 0 0 0;
 }
 
 .contact_main {
@@ -107,7 +103,6 @@ p {
 
 .contact_main p {
     font-size: 12px;
-    margin: 0;
 }
 
 .contact_main ul {
