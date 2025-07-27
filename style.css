@@ -20,11 +20,14 @@
     font-weight: 500;
 }
 
+.content {
+    margin: 16px;
+}
+
 body {
     display: flex;
     flex-direction: column;
     font-family: Inter, sans-serif;
-    margin: 16px;
     min-height: 100vh;
 }
 
