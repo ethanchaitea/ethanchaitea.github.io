@@ -163,7 +163,7 @@ a:hover {
     white-space: nowrap;
     overflow: hidden;
     width: 0;
-    animation: typing 3s steps(35) forwards;
+    animation: typing 2.5s steps(35) forwards;
 }
 
 .intro p::after {
