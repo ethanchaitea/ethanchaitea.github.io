@@ -4,7 +4,7 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     
@@ -15,84 +15,49 @@
 
 <body>
     <header id="header">
-        <a href="index.html" class="nav-logo">Ethan <strong>Chai</strong></a>
-        <nav class="nav">
+        <a href="index.html" class="nav-logo">ethanchai<strong style="font-family: 'Inter', sans-serif;">.dev</strong></a>
+        <nav>
             <ul>
                 <li><a href="me.html">Me</a></li>
                 <li><a href="catalog.html">Catalog</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <button class="nav-toggle" id="nav-toggle">
-            <span></span><span></span><span></span>
-        </button>
     </header>
-
-    <nav class="nav-drawer" id="nav-drawer">
-        <ul>
-            <li><a href="me.html">Me</a></li>
-            <li><a href="catalog.html">Catalog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
 
     <main>
         <section class="intro">
             <div class="intro-hero">
-                <span class="fn">Ethan</span>
-                <span class="ln">Chai</span>
+                ethan<br>chai
             </div>
 
             <div class="intro-main">
-                <p class="intro-main-flashing">CS @ UCSD &nbsp;·&nbsp; Software Engineer &nbsp;·&nbsp; '27</p>
-            </div>
-
-            <div class="intro-call-to-action">
-                <a href="catalog.html" class="btn btn-fill">Catalog</a>
-                <a href="contact.html" class="btn btn-outline">Contact Me</a>
+                <p>CS @ UCSD · Software Engineer · '27</p>
+                <a href="catalog.html" class="button">See My Work</a>
+                <a href="contact.html" class="button">Say Hello</a>
             </div>
         </section>
     </main>
 
     <footer id="footer">
-        <div class="footer-content">
-            <div class="footer-links">
-                <a href="mailto:ethanc0301@gmail.com" aria-label="Email">
-                    <i class="footer-links-email"></i>
-                </a>
-                <a href="https://github.com/ethanchaitea" target="_blank" rel="noopener" aria-label="GitHub">
-                    <i class="footer-links-github"></i>
-                </a>
-                <a href="https://linkedin.com/in/ethan-chai" target="_blank" rel="noopener" aria-label="LinkedIn">
-                    <i class="footer-links-linkedin"></i>
-                </a>
-                <a href="https://instagram.com/ethan.chai.tea/" target="_blank" rel="noopener" aria-label="Instagram">
-                    <i class="footer-links-instagram"></i>
-                </a>
-            </div>
-            <span class="footer-copy">© 2025 Ethan Chai</span>
+        <div class="footer-social">
+            <a href="mailto:ethanc0301@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://github.com/ethanchaitea" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/ethan-chai" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://instagram.com/ethan.chai.tea/" target="_blank" rel="noopener">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        <div class="footer-cc">
+            <span>© 2026 Ethan Chai</span>
         </div>
     </footer>
-
-    <script>
-        // Toggle navigation menu
-        const toggle = document.getElementById('nav-toggle');
-        const navMenu = document.getElementById('nav-drawer');
-
-        toggle.addEventListener('click', () => {
-            const isOpen = navMenu.classList.toggle('open');
-            toggle.classList.toggle('open', isOpen);
-        });
-
-        // Close navigation menu on resize
-        window.addEventListener('resize', () => {
-            if (window.innerWidth > 768) {
-                navMenu.classList.remove('open');
-                toggle.classList.remove('open');
-            }
-        });
-    </script>
-
 </body>
 
 </html>
