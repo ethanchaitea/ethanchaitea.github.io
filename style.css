@@ -1,0 +1,169 @@
+:root {
+    /* Colors */
+    --b: #111;
+    --w: #fff;
+    --g-100: #eee;
+    --g-200: #ccc;
+    --g-300: #aaa;
+
+    /* Fonts */
+    --font-main: 'Inter', sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+main {
+    /* Flex */
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 100vh;
+
+    /* Font */
+    font: 12px var(--font-main);
+    color: var(--b);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.header {
+    /* Flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* Clearance */
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--g-200);
+}
+
+.header-home {
+    font-family: var(--font-mono);
+}
+
+.header-home strong {
+    font-family: var(--font-main);
+}
+
+.header-nav ul {
+    /* Flex */
+    display: flex;
+    gap: 16px;
+
+    /* Font */
+    font: 500 12px var(--font-main);
+    list-style: none;
+}
+
+.main {
+    /* Flex */
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Clearance */
+    padding: 32px 24px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-tagline {
+    /* Flex */
+    display: inline-flex;
+    align-items: center;
+
+    /* Font */
+    font-family: var(--font-mono);
+    color: var(--g-300);
+
+    /* Clearance */
+    gap: 4px;
+}
+
+.hero-tagline::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    background: var(--g-300);
+    animation: blink 1s step-end infinite;
+}
+
+.button {
+    /* Flex */
+    padding: 8px;
+
+    /* Font */
+    text-align: center;
+
+    /* Clearance */
+    border: 1px solid var(--b);
+}
+
+.button:hover {
+    background: var(--b);
+    color: var(--w);
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.button-cta {
+    min-width: 112px;
+}
+
+.hero-cta {
+    display: flex;
+    gap: 16px;
+}
+
+.footer {
+    /* Flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* Font */
+    color: var(--g-300);
+
+    /* Clearance */
+    padding: 16px 24px;
+    border-top: 1px solid var(--g-200);
+    background: var(--g-100);
+}
+
+.footer-social ul {
+    /* Flex */
+    display: flex;
+    gap: 16px;
+
+    /* Font */
+    list-style: none;
+}
+
+.footer-cc {
+    /* Font */
+    font: 10px var(--font-mono);
+}
+
+@keyframes blink {
+    from, to {
+        background-color: transparent;
+    }
+    50% {
+        background-color: var(--g-300);
+    }
+}
