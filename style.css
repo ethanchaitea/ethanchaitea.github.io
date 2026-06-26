@@ -103,14 +103,20 @@ a:hover {
     animation: blink 1s step-end infinite;
 }
 
+.hero-cta {
+    display: flex;
+    gap: 16px;
+}
+
 .button {
     /* Flex */
-    padding: 8px;
+    min-width: 112px;
 
     /* Font */
     text-align: center;
 
     /* Clearance */
+    padding: 8px;
     border: 1px solid var(--b);
 }
 
@@ -119,15 +125,6 @@ a:hover {
     color: var(--w);
     text-decoration: none;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-
-.button-cta {
-    min-width: 112px;
-}
-
-.hero-cta {
-    display: flex;
-    gap: 16px;
 }
 
 .footer {
