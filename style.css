@@ -5,6 +5,7 @@
     --g-100: #eee;
     --g-200: #ccc;
     --g-300: #aaa;
+    --g-400: #555;
 
     /* Fonts */
     --font-main: 'Inter', sans-serif;
@@ -79,6 +80,12 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.hero-title {
+    font: 600 80px 'DynaPuff';
+    letter-spacing: -0.3rem;
+    line-height: 0.75;
 }
 
 .hero-tagline {
