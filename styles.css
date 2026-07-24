@@ -157,6 +157,18 @@ a { text-decoration: none; color: var(--b); }
     gap: 8px;
 }
 
+.scroll {
+    /* Flex and Grind */
+    display: inline-block;
+    position: absolute;
+    bottom: 32px;
+    animation: bounce 2s ease-in-out infinite;
+
+    /* Font and Color */
+    font: 10px var(--font-mono);
+    color: var(--g-300);
+}
+
 .mini {
     padding: 32px 0;
 }
