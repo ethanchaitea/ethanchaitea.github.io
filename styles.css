@@ -133,20 +133,6 @@ a { text-decoration: none; color: var(--b); }
     color: var(--g-300);
 }
 
-.hero-tagline::after {
-    /* Flex and Grid */
-    display: inline-block;
-    width: 6px;
-    height: 12px;
-    margin: 0 6px;
-    vertical-align: -2px;
-    animation: blink 1s step-end infinite;
-
-    /* Font and Color */
-    content: '';
-    background-color: var(--g-300);
-}
-
 .hero-title {
     font: 500 50px var(--font-main);
     letter-spacing: -2px;
