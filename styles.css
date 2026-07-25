@@ -6,7 +6,7 @@
     --w: #fff;
     --g-100: #eee;
     --g-200: #ddd;
-    --g-300: #999;
+    --g-300: #aaa;
 
     /* Fonts */
     --font-main: 'Inter', sans-serif;
@@ -163,7 +163,7 @@ a { text-decoration: none; color: var(--b); }
 }
 
 .mini {
-    padding: 16px 0;
+    padding: 16px 0 32px 0;
 }
 
 .mini-title {
@@ -181,12 +181,20 @@ a { text-decoration: none; color: var(--b); }
     padding: 0 0 16px 0;
 }
 
+.contact-title {
+    /* Flex and Grid */
+    margin: 4px 0;
+
+    /* Font and Color */
+    font: 10px var(--font-main);
+    color: var(--g-300);
+}
+
 .contact-info {
     /* Flex and Grid */
     width: 100%;
     margin: 0 0 16px 0;
     outline: none;
-    resize: none;
     padding: 4px 0;
 
     /* Font and Color */
@@ -196,17 +204,8 @@ a { text-decoration: none; color: var(--b); }
     border-bottom: 1px solid var(--g-300);
 }
 
-.contact-title {
-    /* Flex and Grid */
-    margin: 0 0 4px 0;
-
-    /* Font and Color */
-    font: 10px var(--font-main);
-    color: var(--g-300);
-}
-
 .contact-message {
-    min-height: 80px;
+    min-height: 100px;
     resize: vertical;
 }
 
