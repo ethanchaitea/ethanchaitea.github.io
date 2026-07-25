@@ -197,6 +197,10 @@ a { text-decoration: none; color: var(--b); }
 }
 
 .contact-title {
+    /* Flex and Grid */
+    margin: 0 0 4px 0;
+
+    /* Font and Color */
     font: 10px var(--font-main);
     color: var(--g-300);
 }
