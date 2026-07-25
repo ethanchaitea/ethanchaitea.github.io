@@ -26,13 +26,9 @@ body {
     /* Font and Color */
     font: 12px var(--font-main);
     color: var(--b);
-    background-color: var(--w);
 }
 
 main {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 16px;
@@ -49,14 +45,6 @@ a { text-decoration: none; color: var(--b); }
     margin: 0 auto;
     padding: 24px;
     width: 100%;
-}
-
-.header {
-    max-width: 1000px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background-color: var(--w);
 }
 
 .header-logo {
@@ -108,14 +96,18 @@ a { text-decoration: none; color: var(--b); }
     min-width: 96px;
     margin: 8px 0;
     padding: 8px;
-    border: 1px solid var(--b);
 
     /* Font and Color */
     color: var(--b);
+    border: 1px solid var(--b);
     transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .click:hover { background-color: var(--b); color: var(--w); }
+
+.new-line {
+    padding: 0 0 16px 0;
+}
 
 /* index.html */
 .hero {
@@ -187,6 +179,40 @@ a { text-decoration: none; color: var(--b); }
 
 .mini-text {
     padding: 0 0 16px 0;
+}
+
+.contact-info {
+    /* Flex and Grid */
+    width: 100%;
+    margin: 0 0 16px 0;
+    outline: none;
+    resize: none;
+    padding: 4px 0;
+
+    /* Font and Color */
+    font: inherit;
+    color: var(--b);
+    border: none;
+    border-bottom: 1px solid var(--g-300);
+}
+
+.contact-title {
+    font: 10px var(--font-main);
+    color: var(--g-300);
+}
+
+.contact-message {
+    min-height: 80px;
+    resize: vertical;
+}
+
+.contact-info::placeholder {
+    color: var(--g-300);
+    transition: color 0.2s ease;
+}
+
+.contact-info:focus::placeholder {
+    color: transparent;
 }
 
 /* Animations */
