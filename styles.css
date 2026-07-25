@@ -6,7 +6,7 @@
     --w: #fff;
     --g-100: #eee;
     --g-200: #ddd;
-    --g-300: #aaa;
+    --g-300: #999;
 
     /* Fonts */
     --font-main: 'Inter', sans-serif;
@@ -100,12 +100,11 @@ a { text-decoration: none; color: var(--b); }
     /* Font and Color */
     color: var(--b);
     border: 1px solid var(--b);
-    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .click:hover { background-color: var(--b); color: var(--w); }
 
-.new-line {
+.text {
     padding: 0 0 16px 0;
 }
 
