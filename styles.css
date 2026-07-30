@@ -35,7 +35,7 @@ main {
     width: 100%;
 }
 
-a { text-decoration: none; color: var(--b); }
+a { text-decoration: none; color: inherit; }
 
 /* Sitewide Elements */
 .header, .footer {
@@ -87,7 +87,9 @@ a { text-decoration: none; color: var(--b); }
     color: var(--g-300);
 }
 
-.selected, .underline:hover { text-decoration: underline; text-underline-offset: 4px; }
+.selected, .underline:hover {
+    text-decoration: underline; text-underline-offset: 4px;
+}
 
 .click {
     /* Flex and Grid */
@@ -100,9 +102,13 @@ a { text-decoration: none; color: var(--b); }
     /* Font and Color */
     color: var(--b);
     border: 1px solid var(--b);
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.click:hover { background-color: var(--b); color: var(--w); }
+.click:hover {
+    background-color: var(--b);
+    color: var(--w);
+}
 
 .text {
     padding: 0 0 16px 0;
@@ -180,6 +186,50 @@ a { text-decoration: none; color: var(--b); }
     padding: 0 0 16px 0;
 }
 
+.mini-catalog {
+    padding: 0 0 16px 0;
+}
+
+.mini-catalog ul {
+    /* Flex and Grid */
+    display: flex;
+    padding: 4px 0;
+    gap: 8px;
+
+    /* Font and Color */
+    list-style: none;
+}
+
+/* catalog.html */
+.catalog-title {
+    /* Flex and Grid */
+    margin: 4px 0;
+
+    /* Font and Color */
+    font: 10px var(--font-main);
+    color: var(--g-300);
+}
+
+.catalog-tile {
+    /* Flex and Grid */
+    padding: 4px 6px;
+    
+    /* Font and Color */
+    background-color: var(--g-100);
+    color: var(--g-300);
+    border: 1px solid var(--g-200);
+    border-radius: 4px;
+    box-shadow: 0 0 0 0 var(--g-200);
+    transition: box-shadow 0.1s ease, background-color 0.15s ease, color 0.15s ease;
+}
+
+.catalog-tile:hover, .catalog-tile.selected {
+    box-shadow: 0 0 0 1px var(--g-200);
+    background-color: var(--g-200);
+    color: var(--b);
+}
+
+/* contact.html */
 .contact-title {
     /* Flex and Grid */
     margin: 4px 0;
@@ -235,36 +285,3 @@ a { text-decoration: none; color: var(--b); }
         transform: translateY(-10px);
     }
 }
-
-/* STYLES FOR FORMATTING VISIBILITY */
-/* section:nth-of-type(odd) {
-    background-color: rgb(155, 255, 155)
-}
-
-section:nth-of-type(even) {
-    background-color: rgb(155, 255, 0)
-}
-
-div:nth-of-type(odd) {
-    background-color: rgb(255, 200, 0)
-}
-
-div:nth-of-type(even) {
-    background-color:rgb(255, 255, 0)
-}
-
-h1:nth-of-type(odd) {
-    background-color: rgb(255, 200, 255)
-}
-
-h1:nth-of-type(even) {
-    background-color:rgb(255, 200, 200)
-}
-
-h2:nth-of-type(odd) {
-    background-color: rgb(255, 200, 255)
-}
-
-h2:nth-of-type(even) {
-    background-color:rgb(255, 200, 200)
-} */
