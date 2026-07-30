@@ -32,7 +32,6 @@ main {
     display: flex;
     flex: 1;
     flex-direction: column;
-    
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 16px;
@@ -123,6 +122,15 @@ a { text-decoration: none; color: inherit; }
     letter-spacing: -1px;
 }
 
+.tag {
+    /* Flex and Grid */
+    margin: 4px 0;
+
+    /* Font and Color */
+    font: 10px var(--font-main);
+    color: var(--g-300);
+}
+
 .text {
     padding: 0 0 16px 0;
 }
@@ -195,10 +203,6 @@ a { text-decoration: none; color: inherit; }
     color: var(--g-300);
 }
 
-.mini-text {
-    padding: 0 0 16px 0;
-}
-
 .mini-catalog {
     padding: 0 0 16px 0;
 }
@@ -214,15 +218,6 @@ a { text-decoration: none; color: inherit; }
 }
 
 /* catalog.html */
-.catalog-title {
-    /* Flex and Grid */
-    margin: 4px 0;
-
-    /* Font and Color */
-    font: 10px var(--font-main);
-    color: var(--g-300);
-}
-
 .catalog-tile {
     /* Flex and Grid */
     padding: 4px 6px;
@@ -243,15 +238,6 @@ a { text-decoration: none; color: inherit; }
 }
 
 /* contact.html */
-.contact-title {
-    /* Flex and Grid */
-    margin: 4px 0;
-
-    /* Font and Color */
-    font: 10px var(--font-main);
-    color: var(--g-300);
-}
-
 .contact-info {
     /* Flex and Grid */
     width: 100%;
