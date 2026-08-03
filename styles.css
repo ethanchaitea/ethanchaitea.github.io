@@ -90,8 +90,27 @@ a { text-decoration: none; color: inherit; }
     color: var(--g-300);
 }
 
+/* Sitewide Content */
 .selected, .underline:hover {
     text-decoration: underline; text-underline-offset: 4px;
+}
+
+.heading {
+    font: 500 50px var(--font-main);
+    letter-spacing: -2px;
+}
+
+.tag {
+    /* Flex and Grid */
+    margin: 4px 0;
+
+    /* Font and Color */
+    font: 10px var(--font-main);
+    color: var(--g-300);
+}
+
+.text {
+    margin: 0 0 16px 0;
 }
 
 .click {
@@ -111,28 +130,6 @@ a { text-decoration: none; color: inherit; }
 .click:hover {
     background-color: var(--b);
     color: var(--w);
-}
-
-.title {
-    /* Flex and Grid */
-    margin: 16px 0;
-
-    /* Font and Color */
-    font: 500 25px var(--font-main);
-    letter-spacing: -1px;
-}
-
-.tag {
-    /* Flex and Grid */
-    margin: 4px 0;
-
-    /* Font and Color */
-    font: 10px var(--font-main);
-    color: var(--g-300);
-}
-
-.text {
-    padding: 0 0 16px 0;
 }
 
 /* index.html */
@@ -192,7 +189,7 @@ a { text-decoration: none; color: inherit; }
     padding: 16px 0 32px 0;
 }
 
-.mini-title {
+.mini-heading {
     /* Flex and Grind */
     padding: 0 0 16px 0;
 
@@ -203,11 +200,11 @@ a { text-decoration: none; color: inherit; }
     color: var(--g-300);
 }
 
-.mini-catalog {
+.catalog-tiles {
     padding: 0 0 16px 0;
 }
 
-.mini-catalog ul {
+.catalog-tiles ul {
     /* Flex and Grid */
     display: flex;
     padding: 4px 0;

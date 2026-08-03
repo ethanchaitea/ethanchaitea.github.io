@@ -36,24 +36,24 @@
                 <div class="scroll">scroll for more...</div>
             </section>
         
-            <section class="mini">
-                <h2 class="mini-title">01 &nbsp;/&nbsp; Me</h2>
+            <section class="mini mini-me">
+                <h2 class="mini-heading">01 &nbsp;/&nbsp; Me</h2>
                 <p class="text">
                     Hi! My name's Ethan and I'm a rising junior at the <strong>University of California</strong>, <strong>San Diego</strong> studying CS.
                 </p>
                 <p class="text">
-                    I enjoy creating carefully engineered, elegant, and truly useful software solutions that transform the user's workflow and affect meaningful change in the world around us.
-                    I'm always trying to learn new things while working at the intersection of engineering and creativity.
+                    I enjoy creating carefully engineered, elegant, and useful software solutions that seek to address the latest, hardest challenges in the ever-evolving realm of technology.
+                    I'm always trying to learn new things and affect real change while working at the intersection of engineering and creativity.
                 </p>
                 <a href="/me" class="underline"><strong>Learn more</strong> ↗</a>
             </section>
 
-            <section class="mini">
-                <h2 class="mini-title">02 &nbsp;/&nbsp; Catalog</h2>
+            <section class="mini mini-catalog">
+                <h2 class="mini-heading">02 &nbsp;/&nbsp; Catalog</h2>
                 <p class="text">
                     I've worked with several languages and technologies across a full stack, including:
                 </p>
-                <div class="mini-catalog">
+                <div class="catalog-tiles">
                     <h3 class="tag">Languages</h3>
                     <ul>
                         <li class="catalog-tile">C++</li>
@@ -73,10 +73,10 @@
                     </ul>
                     <h3 class="tag">AI / ML</h3>
                     <ul>
-                        <li class="catalog-tile">Ollama</li>
+                        <li class="catalog-tile">Codex</li>
                         <li class="catalog-tile">Cline</li>
-                        <li class="catalog-tile">Claude</li>
                         <li class="catalog-tile">Gemini</li>
+                        <li class="catalog-tile">Ollama</li>
                     </ul>
                     <h3 class="tag">Dev Tools</h3>
                     <ul>
@@ -89,20 +89,17 @@
                 <a href="/catalog" class="underline"><strong>See the catalog</strong> ↗</a>
             </section>
 
-            <section class="mini">
-                <h2 class="mini-title">03 &nbsp;/&nbsp; Contact</h2>
+            <section class="mini mini-contact">
+                <h2 class="mini-heading">03 &nbsp;/&nbsp; Contact</h2>
                 <p class="text">
                     If you have an interesting idea or a vacant role you think I'd fit, let's talk!
                 </p>
-                <div class="contact">
-                    <div class="tag">Name</div>
-                    <input type="text" placeholder="Enter your name" required class="contact-info">
-                    <div class="tag">Email</div>
-                    <input type="email" placeholder="Enter your email" required class="contact-info">
-                    <div class="tag">Message</div>
-                    <textarea placeholder="Enter your message" required class="contact-info contact-message"></textarea>
+                <form class="contact-form">
+                    <input class="contact-info" required placeholder="Enter your name">
+                    <input class="contact-info" required placeholder="Enter your email">
+                    <textarea class="contact-info contact-message" required placeholder="Enter your message"></textarea>
                     <a class="click" id="contact-send">Send!</a>
-                </div>
+                </form>
             </section>
 
         </main>
