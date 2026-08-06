@@ -20,25 +20,42 @@
                 <ul>
                     <li><a href="/me" class="underline">Me</a></li>
                     <li><a href="/catalog" class="underline">Catalog</a></li>
-                    <li><a href="/contact" class="underline">Contact</a></li>
+                    <li><a href="/contact" class="underline selected">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main>
 
             <section class="contact">
-                <h1 class="title">Contact</h1>
+                <h1 class="heading">Contact</h1>
                 <p class="text">
                     If you have an interesting idea or a vacant role you think I'd fit, let's talk!
                 </p>
-                <div class="contact">
-                    <div class="tag">Name</div>
-                    <input type="text" placeholder="Enter your name" required class="contact-info">
-                    <div class="tag">Email</div>
-                    <input type="email" placeholder="Enter your email" required class="contact-info">
-                    <div class="tag">Message</div>
-                    <textarea placeholder="Enter your message" required class="contact-info contact-message"></textarea>
-                    <a class="click" id="contact-send">Send!</a>
+                <div class="contact-content">
+                    <form class="contact-form">
+                        <input class="contact-field" placeholder="Enter your name" required>
+                        <input class="contact-field" type="email" placeholder="Enter your email" required>
+                        <textarea class="contact-field contact-message" placeholder="Enter your message" required></textarea>
+                        <a class="click" id="contact-send">Send!</a>
+                    </form>
+                    <ul class="contact-info">
+                        <li>
+                            <h3 class="tag">Email</h3>
+                            <a href="mailto:ethanc0301@gmail.com" class="underline">ethanc0301@gmail.com</a>
+                        </li>
+                        <li>
+                            <h3 class="tag">Location</h3>
+                            <span></span>
+                            <p>San Diego, CA</p>
+                        </li>
+                        <li>
+                            <h3 class="tag">Status</h3>
+                            <div class="contact-status">
+                                <span class="contact-status-dot"></span>
+                                <p>Looking for SWE and technical roles for SS27.</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </section>
 
