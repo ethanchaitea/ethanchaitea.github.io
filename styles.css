@@ -235,14 +235,14 @@ a { text-decoration: none; color: inherit; }
 }
 
 /* contact.html */
-.contact-content {
+.contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 64px;
 }
 
 @media (max-width: 768px) {
-    .contact-content {
+    .contact-grid {
         grid-template-columns: 1fr;
         gap: 32px;
     }
