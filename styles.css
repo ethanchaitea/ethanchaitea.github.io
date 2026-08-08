@@ -114,6 +114,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .text {
+    font: 12px var(--font-main);
     margin: 16px 0;
 }
 
@@ -333,6 +334,6 @@ a { text-decoration: none; color: inherit; }
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-10px);
+        transform: translateY(-8px);
     }
 }
