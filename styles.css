@@ -101,7 +101,7 @@ a { text-decoration: none; color: inherit; }
 
     /* Font and Color */
     font: 400 40px var(--font-mono);
-    letter-spacing: -2px;
+    /* letter-spacing: -2px; */
 }
 
 .tag {
