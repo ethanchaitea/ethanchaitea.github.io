@@ -236,7 +236,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 /* contact.html */
-.contact-grid {
+.contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 64px;
